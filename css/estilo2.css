@@ -1,0 +1,154 @@
+
+body{
+    background-image: url(../img/fondo-blanco.jpg);
+    background-size: cover;
+}
+/*Menu de Navegacion*/
+.logoP{
+    width: 15%;
+    padding-top: 1%;
+    margin-bottom: 1%;
+}
+.carousel-inner img {
+    width: 100%;
+    height: 100%;
+}
+.logoSP{
+    margin-top: 0.7em;  
+    width: 40px;
+}
+div ul li{
+    margin-left: 1em;
+    color: #d7d6d8;
+    font-weight: bold;  
+}
+div ul li:hover{
+   color: #ffffff;
+   font-size: 1.1em;
+}
+.login{
+    color:#d7d6d8;
+    font-weight: bold;
+    opacity: 0.7;
+    margin-left: 1em;
+}
+.login:hover{
+    opacity: 1;
+    color: #ffffff;
+    text-decoration: none;
+}
+.dropdown-item:hover{
+    background-color: #2f2f30;
+    color: #ffffff;
+}
+
+
+/**********CONTENIDO************/
+.bloque{
+    margin-top: 20px;
+    background: #ffffff;
+    border-radius: 5px;
+}
+.titulo{
+    margin-top: 20px;
+    color: #173b88;
+    font-weight: bold;
+    padding:0px 20px;
+}
+h3{
+color:#173b88;
+margin-left: 20px;
+}
+
+.bloque2{
+    background: #ffffff ;
+    margin-top: 40px;
+    border-radius: 100%;
+    
+}
+.parrafo{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: justify;
+    padding: 20px;
+    background:#e6e2e256;
+    box-shadow: 2px 2px 2px #797b80;
+}
+/*****Aside**/
+.bloqueR{
+    margin-top: 20px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.bloqueR ul li {
+    margin-left: 0px;
+}
+
+.tituloR{
+    font-size: 30px;
+    font-weight: bold;
+}
+.iconos{
+    width: 80%;
+    padding: 0px;
+    list-style-type:none;
+}
+.iconos li a{
+    padding-top: 0.4em;
+    padding-bottom: 0.4em;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    width: 90%;
+    background-color: #d3cece7c;
+    box-shadow: 2px 2px 2px #797b80;
+}
+.bloqueR iframe{
+    width: 90%;
+    
+}
+/***********FOOTER*********/
+    .fondofooter{
+    color: #ffffff;
+   }
+   .contenedor{
+       padding-left: 10px;
+       padding-right: 10px;
+       padding-top: 10px;
+       padding-bottom: 10px;
+   }
+  
+   .encabezado{
+       color: #ffffff;
+       text-transform: uppercase;
+       font-weight: bold;
+       font-size: 1.2em;
+       margin-left: 0px;
+       padding-top: 0.5em;
+       padding-bottom: 0.5em;
+       border-bottom: 2px solid #42beddd2 ;
+   }
+   .red{
+       padding: 0.8em;
+       color: #ffffff;
+       font-size: 1.2em;
+       background-color: #2f2f30a1;
+       margin-left: 0.5em;
+       margin-top: 0.5em;
+       border-radius: 5px;
+   }
+   .red:hover{
+       background:-webkit-linear-gradient(left, #041ba1, #277bc9); 
+   }
+   .contenedor2{
+       color: #ffffff;
+       text-align: center;
+       border-top: 2px solid #42beddd2 ;
+   }
+ footer{
+     margin-top: 2em;
+ }
+   footer div .creditos{
+       font-size: 0.8em;
+       opacity: 0.8;
+       margin-top: 2em;
+   }
+  

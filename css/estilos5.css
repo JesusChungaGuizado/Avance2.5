@@ -1,0 +1,192 @@
+/*-----Estilos del la secccion CONTACTENOS------*/
+body{
+   background-image: url(../img/fondo-blanco.jpg);
+   background-size: cover;
+}
+/*Menu de Navegacion*/
+.logoP{
+    width: 15%;
+    padding-top: 1%;
+    margin-bottom: 1%;
+}
+.logoSP{
+    margin-top: 0.7em;  
+    width: 40px;
+}
+div ul li{
+    margin-left: 1em;
+    color: #d7d6d8;
+    font-weight: bold;  
+}
+div ul li:hover{
+   color: #ffffff;
+   font-size: 1.1em;
+}
+.login{
+    color:#d7d6d8;
+    font-weight: bold;
+    opacity: 0.7;
+    margin-left: 1em;
+}
+.login:hover{
+    opacity: 1;
+    color: #ffffff;
+    text-decoration: none;
+}
+.dropdown-item:hover{
+    background-color: #2f2f30;
+    color: #ffffff;
+}
+/*--Estilos del contenido*/
+
+.consulta{
+    background-image: url(../img/FondoLogin.jpg);
+    background-attachment:local;
+    background-size: cover;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+.col-sm-7{
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.formContacto{
+    background-color: #ffffffa8;
+    box-shadow: 1px 1px 1px  #a3a3a3;
+    width: 100%;
+    color: #000000;
+    font-weight: bold;
+    font-size: 15px;
+    padding: 20px 20px 20px 20px;
+    margin-left: 0px;
+    margin-right: 0px;
+
+}
+
+fieldset{
+    border: none;
+}
+input,textarea,.lista{
+    border-radius: 5px; 
+    width: 100%;
+    font-family:inherit;
+    box-shadow: 1px 1px 1px#76747c;
+}
+.titulo{
+    color: #173b88;
+    font-weight: bold;
+    font-size: 25px;   
+}
+
+.boton{
+    background:-webkit-linear-gradient(left, #041ba1, #277bc9);
+    color: rgb(236, 236, 236);
+    padding: 5px;
+    font-weight: bold;
+    width: 100%;
+    margin-top: 20px; 
+    border: none;
+    box-shadow: 1px 1px 1px #76747c;
+    
+}
+.boton:hover{
+    opacity: 0.9;
+}
+
+/*Estilo Footer*/
+.fondofooter{
+    color: #ffffff;
+   }
+   .contenedor{
+       padding-left: 10px;
+       padding-right: 10px;
+       padding-top: 10px;
+       padding-bottom: 10px;
+   }
+   .encabezado{
+       text-transform: uppercase;
+       font-weight: bold;
+       font-size: 1.2em;
+       padding-top: 0.5em;
+       padding-bottom: 0.5em;
+       border-bottom: 2px solid #42beddd2 ;
+   }
+   .red{
+       padding: 0.8em;
+       color: #ffffff;
+       font-size: 1.2em;
+       background-color: #2f2f30a1;
+       margin-left: 0.5em;
+       margin-top: 0.5em;
+       border-radius: 5px;
+   }
+   .red:hover{
+       background-color: -webkit-linear-gradient(left, #041ba1, #277bc9); 
+   }
+   .contenedor2{
+       color: #ffffff;
+       text-align: center;
+       border-top: 2px solid #42beddd2 ;
+   }
+   footer{
+       margin-top: 2em;
+   }
+   footer div .creditos{
+       font-size: 0.8em;
+       opacity: 0.8;
+       margin-top: 2em;
+   }
+   
+   /* Estilo de Ubicacion */
+   .cuerpo{
+    background-image: url(../img/FondoLogin.jpg);
+    background-size: cover;
+
+}
+   h1{
+    color: #ffffff;
+    font-weight: bold;
+    text-shadow: 3px 3px 3px #76747c;
+    margin-top: 5%;
+}
+.col-sm-12{
+    width: 100%;
+}
+table{
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    
+}
+tr{
+   background-color: #ffffff;
+}
+td{
+    border: 1px solid #dddddd;
+    padding:8px;
+    box-shadow: 1px 1px 1px  #76747c;
+}
+table .seccion{
+    background-color:darkblue;
+    color: #ffffff;
+    text-align: center;
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    font-weight: bold;
+    font-size: 20px;
+}
+table .seccion td img{
+ margin-right: 10px;
+}
+
+/****Estilo footer Ubicacion**/
+.fondof{
+    background: #232324;
+    color: #d7d6d8;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-top: 40px;
+}

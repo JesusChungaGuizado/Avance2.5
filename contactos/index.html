@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contactenos</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <script src="../JavaScript/Script.js"> </script>
+    <link rel="stylesheet" type="text/css" href="../css/estilos5.css">
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <figure class="text-left logoP">
+                <img class="img-fluid " src="../img/HyundaiLogo.png" alt="Hyundai_Logo">
+            </figure>
+            <figure>
+                <img class="img-fluid" src="../img/consulta2.png" alt="consulta">
+            </figure>
+        </div>
+    </header>
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark sticky-top">
+
+        <figure class="logoSP">
+            <img class="img-fluid" src="../img/logoSP.png">
+        </figure>
+
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item nave"><a class="nav-link" href="../index.html" title="Inicio">Inicio</a></li>
+                <li class="nav-item nave"><a class="nav-link" href="../nosotros/index.html"
+                        title="Nosotros">Nosotros</a></li>
+                <li class="nav-item nave"><a class="nav-link" href="../servicios/index.html" title="Servicios">Servicios
+                    </a>
+                </li>
+                <li class="nav-item nave"><a class="nav-link" href="index.html" title="Contactenos">Contactenos</a>
+                </li>
+                <li class="nav-item dropdown nave"><a class="nav-link dropdown-toggle" href="#" id="navbardrop"
+                        data-toggle="dropdown">Modelos Hyundai</a>
+                    <div class="dropdown-menu">
+                        <a class="dropdown-item" href="../modelos/ModeloBlueDrive/index.html">Blue Drive</a>
+                        <a class="dropdown-item" href="../modelos/ModeloGreenDrive/index.html">Green Drive</a>
+                        <a class="dropdown-item" href="../modelos/Hatchback/index.html">Hatchback</a>
+                        <a class="dropdown-item" href="../modelos/Sedan/index.html">Sedán</a>
+                        <a class="dropdown-item" href="../modelos/Suv/index.html">Suv</a>
+                        <a class="dropdown-item" href="../modelos/utilitarios/index.html">Utilitarios</a>
+                        <a class="dropdown-item" href="../modelos/camiones/index.html">Camiones</a>
+                        <a class="dropdown-item" href="../modelos/buses/index.html">Buses</a>
+                    </div>
+                </li>
+                <li class="nav-item nave"><a class="nav-link" href="../Ubicanos/index.html" target="_blank">Ubicanos</a>
+                </li>
+            </ul>
+        </div>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+    </nav>
+    <section>
+        <div class="container">
+            <div class="row consulta">
+                <div class="col-sm-5">
+                </div>
+                <div class="col-sm-7">
+                    <form class="needs-validation formContacto " name="formContacto" action="" method="POST" novalidate>
+                        <fieldset>
+                            <legend class="titulo">Consultas</legend>
+                            <hr />
+                            <div class="form-row">
+                                <div class="col">
+                                    <label for="nombre">NOMBRES</label>
+                                    <input type="text" class="form-control" id="nombre" name="nombre" required="true">
+                                    <div class="valid-feedback">Válido.</div>
+                                    <div class="invalid-feedback">Por favor ingrese un nombre válido.</div>
+                                </div>
+                                <div class="col">
+                                    <label for="apellido">APELLIDOS</label>
+                                    <input type="text" class="form-control" id="apellido" name="apellido"
+                                        required="true">
+                                    <div class="valid-feedback">Válido.</div>
+                                    <div class="invalid-feedback">Por favor ingrese un apellido válido.</div>
+                                </div>
+                            </div><br />
+                            <div class="form-row">
+                                <div class="col">
+                                    <label for="dni">DNI</label>
+                                    <input type="text" class="form-control" id="dni" name="dni" maxlength="8"
+                                        required="true">
+                                    <div class="valid-feedback">Válido.</div>
+                                    <div class="invalid-feedback">Por favor ingrese un DNI válido.</div>
+                                </div>
+                                <div class="col">
+                                    <label for="celular">CELULAR</label>
+                                    <input type="tel" class="form-control" id="celular" name="celular" maxlength="9"
+                                        pattern="[0-9]{9}" required="true">
+                                    <div class="valid-feedback">Válido.</div>
+                                    <div class="invalid-feedback">Por favor ingrese un número válido.</div>
+                                </div>
+                                <div class="col">
+                                    <label for="departamento">DEPARTAMENTO</label>
+                                    <select name="departamento" class="form-control lista" id="departamento"
+                                        required="true">
+                                        <option value="">Seleccione...</option>
+                                        <option value="Amazonas">Amazonas</option>
+                                        <option value="Ancash">Ancash</option>
+                                        <option value="Apurimac">Apurimac</option>
+                                        <option value="Arequipa">Arequipa</option>
+                                        <option value="Ayacucho">Ayacucho</option>
+                                        <option value="Cajamarca">Cajamarca</option>
+                                        <option value="Callao">Callao</option>
+                                        <option value="Cusco">Cusco</option>
+                                        <option value="Huancavelica">Huancavelica</option>
+                                        <option value="Huanuco">Huanuco</option>
+                                        <option value="Ica">Ica</option>
+                                        <option value="Junin">Junin</option>
+                                        <option value="Libertad">La Libertad</option>
+                                        <option value="Lambayeque">Lambayeque</option>
+                                        <option value="Lima">Lima</option>
+                                        <option value="Loreto">Loreto</option>
+                                        <option value="Madre_De_Dios">Madre De Dios</option>
+                                        <option value="Moquegua">Moquegua</option>
+                                        <option value="Pasco">Pasco</option>
+                                        <option value="Piura">Piura</option>
+                                        <option value="Puno">Puno</option>
+                                        <option value="San Martin">San Martin</option>
+                                        <option value="Tacna">Tacna</option>
+                                        <option value="Tumbes">Tumbes</option>
+                                    </select>
+                                    <div class="valid-feedback">Válido.</div>
+                                    <div class="invalid-feedback">Por favor seleccione un Departamento.</div>
+                                </div>
+                            </div><br />
+                            <div class="form-row">
+                                <div class="col">
+                                    <label for="correo">E-MAIL</label>
+                                    <input type="email" class="form-control" id="correo" name="correo" required="true">
+                                    <div class="valid-feedback">Válido.</div>
+                                    <div class="invalid-feedback">Por favor ingrese un email válido.</div>
+                                </div>
+                                <div class="col">
+                                    <label for="servicio">SERVICIO</label>
+                                    <select name="servicio" class="form-control lista" id="servicio" required="true">
+                                        <option value="">Seleccione...</option>
+                                        <option value="atencion">ATENCIÓN</option>
+                                        <option value="financiamiento">FINANCIAMIENTO</option>
+                                        <option value="compra">PROCESO DE COMPRA</option>
+                                        <option value="cotizacion">COTIZACIÓN</option>
+                                        <option value="otros">OTROS</option>
+                                    </select>
+                                    <div class="valid-feedback">Válido.</div>
+                                    <div class="invalid-feedback">Por favor seleccione el tipo de servicio.</div>
+                                </div>
+                            </div><br />
+                            <div class="form-row">
+                                <div class="col">
+                                    <label for="direccion">DIRECCIÓN</label>
+                                    <input type="text" class="form-control" id="direccion" name="direccion"
+                                        required="true">
+                                    <div class="valid-feedback">Valido.</div>
+                                    <div class="invalid-feedback">Por favor ingrese una dirección.</div>
+                                </div>
+                                <div class="col">
+                                    <label for="modelo">MODELO DEL VEHÍCULO</label>
+                                    <select name="modelo" class="form-control lista" id="modelo" required="true">
+                                        <option value="">Seleccione...</option>
+                                        <option value="blue">Blue Drive</option>
+                                        <option value="green">Green Drive</option>
+                                        <option value="hatchback">Hatchback</option>
+                                        <option value="sedan">Sedán</option>
+                                        <option value="suv">Suv</option>
+                                        <option value="utilitarios">Utilitarios</option>
+                                        <option value="camiones">Camiones</option>
+                                        <option value="buses">Buses</option>
+                                    </select>
+                                    <div class="valid-feedback">Válido.</div>
+                                    <div class="invalid-feedback">Por favor seleccione un modelo</div>
+                                </div>
+                            </div><br />
+                            <div class="form-row">
+                                <div class="col">
+                                    <label for="coment">MENSAJE</label>
+                                    <textarea class="form-control" rows="5" id="coment" name="coment"
+                                        minlength="15"></textarea>
+                                </div>
+                                <div class="valid-feedback">Válido.</div>
+                                <div class="invalid-feedback">Por favor rellene bien los datos</div>
+                            </div>
+                            <button type="submit" class="btn btn-primary boton" name="Registrarme">Enviar</button>
+                        </fieldset>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="container-fluid bg-dark ">
+            <div class="row">
+                <div class="container">
+                    <div class="row fondofooter">
+                        <div class="col-sm-4 contenedor">
+                            <h3 class="encabezado">Nosotros</h3>
+                            <div class="text-justify">
+                                <p>Hyundai Motor Company está comprometida a convertirse en un
+                                    compañero de vida en automóviles y servicios asociados. La compañía lidera Hyundai
+                                    Motor Group, una estructura de negocio innovadora capaz de mover recursos desde el
+                                    acero fundido hasta autos terminados</p>
+                                <a href="../nosotros/index.html">Leer más...</a>
+                            </div>
+                        </div>
+                        <div class="col-sm-4 contenedor">
+                            <h3 class="encabezado">Ubicanos</h3>
+                            <iframe
+                                src="https://www.google.com/maps/embed?pb=!1m12!1m8!1m3!1d210006.73207863574!2d-77.07501004923637!3d-12.028994311484576!3m2!1i1024!2i768!4f13.1!2m1!1shyundai!5e0!3m2!1ses-419!2spe!4v1600360223941!5m2!1ses-419!2spe"
+                                width="100%" height="200px" frameborder="0" style="border:0;" allowfullscreen=""
+                                aria-hidden="false" tabindex="0"></iframe>
+
+                        </div>
+                        <div class="col-sm-4 contenedor">
+                            <h3 class="encabezado"> Nuestra Redes Sociales</h3>
+                            <div>
+                                <a href="https://es-la.facebook.com/hyundaiperu/"><span
+                                        class="fab fa-facebook-f red"></span></a>
+                                <a href="https://twitter.com/hyundai_peru?lang=es"><span
+                                        class="fab fa-twitter red"></span></a>
+                                <a href="https://www.instagram.com/hyundai_peru/?hl=es-la"><span
+                                        class="fab fa-instagram red"></span></a>
+                                <a href="https://www.youtube.com/user/HYUNDAIdelPERU"><span
+                                        class="fab fa-youtube red"></span></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-12 bg-dark contenedor2">
+                <p class="creditos">
+                    Created By <strong>Jesus Chunga </strong>| ⓒ Derechos de autor 2020 Todos los derechos reservados
+                </p><br />
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
